@@ -1,0 +1,484 @@
+html, body {
+margin: 0;
+font-family: 'Comfortaa', cursive;
+scroll-behavior: smooth;
+}
+
+img{
+
+  pointer-events: none;
+  -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+}
+
+::selection {
+  background: #00b300; /* WebKit/Blink Browsers */
+  color: white;
+}
+
+
+.header {
+z-index: 0;
+position: relative;
+width: 100%;
+min-height: 740px;
+margin-top: 0;
+background-color:#0450cc;
+clear: both;
+font-size: 14px;
+text-align: center;
+background-image:url('http://www.laopinion.net/wp-content/uploads/2017/07/fiordos-noruegos1.jpg');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+box-shadow: 5px 10px 18px #888888;
+}
+
+
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+outline: none;
+
+}
+
+.mobileNav{
+  display: none;
+}
+
+.nav{
+/*text-align:right;
+padding-top: 15px;
+padding-right: 300px;*/
+
+padding-left: 25%;
+padding-top: 25px;
+font-family: 'Comfortaa', cursive;
+font-size: 22px;
+}
+
+.nav a{
+text-decoration: none;
+color: #FFFFFF;
+padding-right: 50px;
+
+}
+
+.nav a:hover {
+font-size: 20px;
+}
+
+.headers{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+.quote{
+  position: relative;
+  font-size: 18px;
+  background-color: #efefef;
+  box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.2), 5px -5px 18px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  padding: 10px;
+}
+
+#about{
+  padding-top: 35px;
+}
+
+#resize{
+  display: none;
+}
+
+.about{
+  padding-top: 10px;
+
+}
+
+.about h1{
+  position: relative;
+  padding-bottom: 4px;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+#abtTxt{
+    margin-left: 10%;
+    height: 100%;
+    width:80%;
+    font-size: 20px;
+
+}
+
+#abtTxt p{
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+
+}
+
+#abtImg{
+  float: right;
+  margin-right: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: #efefef;
+}
+
+#abtImg img {
+  width: 400px;
+   height: auto;
+  border-radius: 5px;
+    display: block;
+}
+
+#calendar{
+  padding-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#spc{
+  padding-bottom: 100px;
+}
+
+@media (max-width: 550px) {
+    .big-container {display: none;}
+}
+@media (min-width: 550px) {
+    .small-container {display: none;}
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+
+
+}
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+
+}
+
+
+#wwf{
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #efefef;
+}
+
+#wwf img{
+  width: 300px;
+  height: auto;
+
+}
+
+.headers h1{
+  position: relative;
+  padding-bottom: 4px;
+  font-size: 30px;
+}
+
+.wwfTxt{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width:80%;
+  font-size: 22px;
+  text-align: left;
+
+}
+
+#contact{
+  padding-top: 20px;
+}
+
+
+.ctcTxt{
+  padding-top: 2%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.fa-envelope{
+  padding-top: 30px;
+  font-size: 60px;
+  /*color: red;*/
+}
+
+#ctForm{
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.footer{
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 7em;
+  margin-top: -3em;
+  background-color: #e4e3e2;
+  box-shadow: 0 -5px 5px -5px #333;
+
+}
+
+
+
+@media (max-width: 950px) {
+.nav{
+  padding-left: 15%;
+}
+
+
+}
+
+@media (max-width: 920px) {
+
+.about h1{
+  padding-top: 5%;
+}
+
+.mobileNav{
+  display: block;
+}
+
+.nav{
+  display: none;
+}
+
+  #resize{
+    display: block;
+  }
+
+  #reg{
+    display: none;
+  }
+  #abtImg{
+  /*  border: none2px solid blue; */
+    margin-right: 25%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: #efefef;
+  }
+
+  tr,th{
+    width: 100%;
+  /*  border: 2px dotted red;*/
+  }
+
+
+
+
+}
+
+
+
+@media (max-width: 740px) {
+  #abtImg{
+  /*  border: 2px solid blue; */
+    margin-right: 20%;
+  }
+
+
+}
+
+
+@media (max-width: 580px) {
+
+  #abtImg{
+  /*  border: 2px solid blue; */
+    margin-right: 13%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+
+  html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+p{
+  font-size: 18px;
+
+}
+
+  .about h1{
+    padding-top: 10%;
+  }
+
+  #abtImg{
+  /*  border: 2px solid blue; */
+    margin-right: 9%;
+  }
+
+.wwfTxt{
+  text-align: center;
+}
+
+}
+
+
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #abtTxt{
+      width: 340px;
+      margin-left: 0px;
+
+      text-align: center;
+      border: none;
+    }
+}
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .about h1{
+      padding-left: 20%;
+    }
+
+    #abtTxt{
+      width: 340px;
+      margin-left: 0px;
+
+      text-align: center;
+      border: none1px solid red;
+    }
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .about h1{
+      padding-left: 25%;
+    }
+
+    #abtImg img{
+      width: 460px;
+    }
+
+    #abtTxt{
+      width: 355px;
+      margin-left: 0px;
+      display: inline-block;
+      text-align: center;
+      border: none1px solid green;
+    }
+
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    #abtImg img{
+      width: 500px;
+    }
+
+    .about h1{
+      padding-left: 25%;
+    }
+
+    #abtTxt{
+      width: 390px;
+      margin-left: 0px;
+      display: inline-block;
+      text-align: center;
+      border: nonenone;
+    }
+
+}
+
+
+
+/* ----------- iPhone X ----------- */
+
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    #abtImg img{
+      width: 500px;
+    }
+
+    .about h1{
+      padding-left: 20%;
+    }
+
+    #abtTxt{
+      width: 350px;
+      margin-left: 0px;
+      display: inline-block;
+      text-align: center;
+      border: nonenone;
+    }
+
+}
